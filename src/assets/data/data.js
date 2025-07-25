@@ -4,16 +4,16 @@ export const data = {
             id: 1,
             name: 'Lailatul Kadri',
             child: 'Putri ke dari',
-            father: 'Bapak Azir',
-            mother: 'Ibu Zuriati',
+            father: 'Azir',
+            mother: 'Zuriati',
             image: './src/assets/images/cowo.png'
         },
         P: {
             id: 2,
             name: 'Rahmat Ilahi',
             child: 'Putra dari',
-            father: 'Bapak Syahrul',
-            mother: 'Ibu Ernida',
+            father: 'Syahrul',
+            mother: 'Ernida',
             image: './src/assets/images/cewe.png'
         },
 
