@@ -3,7 +3,7 @@ export const data = {
         L: {
             id: 1,
             name: 'Lailatul Kadri',
-            child: 'Putri ke dari',
+            child: 'Putri dari',
             father: 'Azir',
             mother: 'Zuriati',
             image: './src/assets/images/cowo.png'
