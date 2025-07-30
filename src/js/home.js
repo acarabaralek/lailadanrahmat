@@ -6,11 +6,11 @@ export const home = () => {
     const [_, figureElement, timeElement, homeTime, calendarAnchor] = homeContainer.children;
 
     const generateFigureContent = ({bride}) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        const {L: {nickname: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                Laila & Rahmat
+                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
             </figcaption>`;
     };
 
