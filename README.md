@@ -6,6 +6,6 @@ Acara Baralek adalah tempat berbagi informasi tentang acara pernikahan kepada ke
 
 Undangan Digital ini merupakan redesain dari milik [Dewanakl](https://github.com/dewanakl) dan [sdprdh](https://github.com/sdprdh)
 
-## Thanks to
+## Greeting
 
 Terima kasih telah mengunjungi repositori ini. Semoga hari pernikahan Anda berjalan lancar dan penuh kebahagiaan.
