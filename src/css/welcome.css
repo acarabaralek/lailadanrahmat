@@ -58,6 +58,7 @@
     font-family: var(--sacramento);
     font-weight: 400;
     margin-top: 0.5rem;
+    color: #ffd700;
 }
 
 .welcome p span {
