@@ -6,7 +6,10 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: #800000;
+    background-image: url('src/assets/images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center center;
     position: fixed;
     top: 0;
     left: 0;
@@ -86,6 +89,7 @@
 .welcome button i {
     font-size: 1.2rem;
 }
+
 
 
 
