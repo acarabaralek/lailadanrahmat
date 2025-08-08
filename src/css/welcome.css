@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: #EFBF04;
+    background-color: #330000;
     position: fixed;
     top: 0;
     left: 0;
@@ -86,6 +86,7 @@
 .welcome button i {
     font-size: 1.2rem;
 }
+
 
 
 
