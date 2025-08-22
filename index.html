@@ -56,7 +56,7 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/mediaQueries.css">
 
-    <title>Acara Baralek - Laila & Rahmat</title>
+    <title>acara - baralek</title>
 </head>
 <body>
 
@@ -149,7 +149,30 @@
         <p data-aos="zoom-in" data-aos-duration="1000"></p>
         <i class="bx bx-heart" aria-hidden="true"></i>
     </section>
-    
+
+    <section class="galeri" id="galeri" aria-labelledby="galeri-title">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 id="galeri-title">Galeri</h2>
+            <figure aria-label="galeri box"></figure>
+            <ul aria-label="pagination galeri"></ul>
+            <button type="button" aria-label="button prev galeri" data-id="">
+                <i class="bx bx-chevron-left"></i>
+            </button>
+            <button type="button" aria-label="button next galeri" data-id="">
+                <i class="bx bx-chevron-right"></i>
+            </button>
+            <button type="button" aria-label="Lihat semua foto">Lihat semua foto</button>
+        </div>
+        <div>
+            <h2>Galeri</h2>
+            <div></div>
+            <button type="button" aria-label="close button">
+                <i class='bx bx-x' aria-hidden="true"></i>
+            </button>
+        </div>
+        <i class="bx bx-heart" aria-hidden="true"></i>
+    </section>
+
     <section class="wishas" id="wishas">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" aria-hidden="true">
             <path fill="#f8f9fa" fill-opacity="1"
@@ -158,7 +181,7 @@
         <div>
             <h2 data-aos="zoom-in" data-aos-duration="1000">Love Gift</h2>
             <p data-aos="zoom-in" data-aos-duration="1000">
-                Tanpa mengurangi rasa hormat, bagi teman - teman yang ingin memberikan tanda kasih untuk kami, dapat melalui
+                Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui
                 :
             </p>
             <div></div>
@@ -172,8 +195,8 @@
                 <label for="status">Kehadiran</label>
                 <select name="status" id="status" required aria-required="true">
                     <option value="" disabled selected>konfirmasi kehadiran</option>
-                    <option value="y">Insya Allah hadir</option>
-                    <option value="n">Maaf tidak bisa hadir</option>
+                    <option value="y">Hadir</option>
+                    <option value="n">Tidak Hadir</option>
                 </select>
                 <label for="message">Ucapan & Doa</label>
                 <textarea
@@ -227,9 +250,9 @@
     <h4> اَلْحَمْدُ للَّهِ رَبِّ الْعالَمِينَ</h4>
     <div>
         <p>custom by <span>acarabaralek</span></p>
-        <a href="https://acarabaralek.github.io">
+        <a href="https://github.com/acarabaralek">
             <i class="bx bxl-github"></i>
-            <span> acara baralek </span>
+            <span>mzulfian</span>
         </a>
     </div>
 </footer>
@@ -238,5 +261,3 @@
 <script src="src/main.js" type="module"></script>
 </body>
 </html>
-
-
