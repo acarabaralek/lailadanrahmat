@@ -25,10 +25,10 @@ export const data = {
         marriage: {
             year: '2025',
             month: 'September',
-            date: '15',
-            day: 'Senin',
+            date: '14',
+            day: 'Minggu',
             hours: {
-                start: '08.00',
+                start: '10.00',
                 finish: 'Selesai'
             }
         },
@@ -38,7 +38,7 @@ export const data = {
             date: '15',
             day: 'Senin',
             hours: {
-                start: '10.00',
+                start: '08.00',
                 finish: 'Selesai'
             }
         },
@@ -82,7 +82,7 @@ export const data = {
         },
         {
             id: 2,
-            name: 'Ipsum Lorem',
+            name: 'Lailatul Kadri',
             icon: './src/assets/images/bri.png',
             rekening: '12345678'
         },
@@ -125,3 +125,4 @@ export const data = {
         },
     ],
 }
+
